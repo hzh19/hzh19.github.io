@@ -1,0 +1,56 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Name
+      value: Zihan Hu
+    - name: Email
+      value: <a href='mailto:huzh19@mails.tsinghua.edu.cn'>huzh19@mails.tsinghua.edu.cn</a>, <a href='mailto:huzihan423@gmail.com'>huzihan423@gmail.com</a>
+    - name: Research Interests
+      value: Theoretical Computer Science
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor in Computer Science 
+    # <a href="/assets/pdf/zihan_hu_transcript.pdf" class = "font-weight-light">[transcript]</a>
+      institution: Tsinghua University
+      year: 2019 - Present
+      description:
+        - <a href="https://iiis.tsinghua.edu.cn/en/yaoclass/">Yao Class</a>, <a href='https://iiis.tsinghua.edu.cn/'>Institute for Interdisciplinary Information Sciences (IIIS)</a>, led by <a href="https://iiis.tsinghua.edu.cn/yao/">Prof. Andrew Yao</a>.
+        - GPA <strong>3.98/4.0</strong>, Rank <strong>1/30</strong>.
+        - TOEFL 106, GRE 331.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: University of California, Santa Barbara (Remote)
+      year: 2022
+      description:
+        - Advised by <a href='https://sites.google.com/site/prabhanjanva'>Prof. Prabhanjan Ananth</a> and <a href='http://www.henryyuen.net/'>Prof. Henry Yuen</a>.
+        - Worked on black-box separation for public-key quantum money.
+    - title: Research Intern
+      institution: Tsinghua University
+      year: 2021
+      description:
+        - Advised by <a href='http://www.chenyilei.net/'>Prof. Yilei Chen</a>. 
+        - Worked on quantum algorithm for lattice problems.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - Yao Award, Recognition Prize, <i>Institute for Interdisciplinary Information Sciences</i>
+    - year: 2021
+      items:
+        - Comprehensive Excellence Scholarship, <i>Tsinghua University</i>
+    - year: 2020
+      items:
+        - Academic Excellence Scholarship, <i>Tsinghua University</i>
+        - Sports Excellence Scholarship, <i>Tsinghua University</i>
+    - year: 2018
+      items:
+        - Chinese Mathematical Olympiad, Silver Medal, <i>Chinese Mathematical Society</i>
+        - Chinese Girls' Mathematical Olympiad, Gold Medal, <i>Chinese Mathematical Society</i>
+

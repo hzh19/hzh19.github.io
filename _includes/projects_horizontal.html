@@ -1,0 +1,35 @@
+<div class="col-md-12">
+    <h4 class = "category">
+        <!-- {%- if project.redirect -%}
+        <a href="{{ project.redirect }}">
+        {%- else -%}
+        <a href="{{ project.url | relative_url }}">
+        {%- endif -%}
+            {{ project.title }}
+        </a> -->
+        {{ project.title }}
+        {%- if project.pdf -%}
+        <a href="{{ project.pdf }}" style="font-size:large; padding-left: 5px;">
+            [pdf]
+        </a>
+        {%- endif -%}
+        {%- if project.arxiv -%}
+        <a href="{{ project.arxiv }}" style="font-size:large; padding-left: 5px;">
+            [arxiv]
+        </a>
+        {%- endif -%}
+        {%- if project.slide -%}
+        <a href="{{ project.slide }}" style="font-size:large; padding-left: 5px;">
+            [slides]
+        </a>
+        {%- endif -%}
+    </h4>
+    <p>
+        <ul>
+        {% for content in project.contents %}
+          <li style="padding-bottom: 0.3em">{{ content }}</li>
+        {% endfor %}
+    </ul>
+    </p>
+    <p>{{ project.description }}</p>
+</div>
