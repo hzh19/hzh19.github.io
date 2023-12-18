@@ -13,21 +13,21 @@ subtitle: >
 profile:
   align: right
   image: pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
 
-news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}" Used for Publication now
+news: false  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}" Used for Publication now
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a senior undergraduate at [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/) (known as [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/)), [Tsinghua University](https://www.tsinghua.edu.cn/en/). 
+I am a research intern at [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en).
 
-**I am applying for Ph.D. programs (2023 Fall).**
+I recently completed my Bachelor's degree in Computer Science at [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/) (known as [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/)), [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 
-My research interests lie in theoretical computer science. I am particularly interested in understanding the fundamental differences between the quantum and classical worlds from the perspectives of cryptography and complexity.
+My research interests lie in theoretical computer science, especially cryptography, quantum computing and complexity.
 
 During my undergraduate, I was fortunate to be advised by [Prof. Yilei Chen](http://www.chenyilei.net/).
 
 During the Spring and Summer of 2022, I had the privilege to work on quantum cryptography under the supervision of [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) and [Prof. Henry Yuen](http://www.henryyuen.net/). 
 
-Email: [huzh19@mails.tsinghua.edu.cn](mailto:huzh19@mails.tsinghua.edu.cn), [huzihan423@gmail.com](mailto:huzihan423@gmail.com)
+Email: [huzihan423@gmail.com](mailto:huzihan423@gmail.com)
