@@ -549,7 +549,7 @@ hr.style2 {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          // border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
@@ -558,14 +558,15 @@ hr.style2 {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 400!important;
         }
         > span.more-authors {
           color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          // border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
           &:hover {
               color: var(--global-text-color);
-              border-bottom: 1px dashed var(--global-text-color);
+              // border-bottom: 1px dashed var(--global-text-color);
           }
         }
       }
