@@ -9,7 +9,9 @@
 
     arxiv={2301.09236},
     slides={Asiacrypt_slides.pdf},
-    selected={true}
+    selected={true},
+    abstract={<p>Public-key quantum money is a cryptographic proposal for using highly entangled quantum states as currency that is publicly verifiable yet resistant to counterfeiting due to the laws of physics. Despite significant interest, constructing provably-secure public-key quantum money schemes based on standard cryptographic assumptions has remained an elusive goal. Even proposing plausibly-secure candidate schemes has been a challenge.
+    </p><p>These difficulties call for a deeper and systematic study of the structure of public-key quantum money schemes and the assumptions they can be based on. Motivated by this, we present the first black-box separation of quantum money and cryptographic primitives. Specifically, we show that collision-resistant hash functions cannot be used as a black-box to construct public-key quantum money schemes where the banknote verification makes classical queries to the hash function. Our result involves a novel combination of state synthesis techniques from quantum complexity theory and simulation techniques, including Zhandry's compressed oracle technique.</p>}
 }
 
 @article{chen2023hardness,
@@ -19,5 +21,11 @@
     year={2023},
 
     arxiv= {2310.00644},
-    selected={true}
+    selected={true},
+    abstract={<p>The learning with errors problem (LWE) is one of the most important building blocks for post-quantum cryptography. To better understand the quantum hardness of LWE, it is crucial to explore quantum variants of LWE, show quantum algorithms for those variants, or prove they are as hard as standard LWE.</p>
+    <p>To this end, Chen, Liu, and Zhandry [Eurocrypt 2022] define the S|LWE⟩ problem, which encodes the error of LWE samples into quantum amplitudes. They then show efficient quantum algorithms for S|LWE⟩ with a few interesting amplitudes. However, the hardness of the most interesting amplitude, Gaussian, was not addressed by Chen et al., or only known for some restricted settings (for example, when the number of S|LWE⟩ samples is very small, it is well known that S|LWE⟩ is as hard as standard LWE).
+    In this paper, we show new hardness and algorithms for S|LWE⟩ with Gaussian and other amplitudes. Our main results are</p>
+    <p>1. There exist quantum reductions from standard LWE or worst-case GapSVP to S|LWE⟩ with Gaussian amplitude with unknown phase, and arbitrarily many S|LWE⟩ samples.</p>
+    <p>2. There is a \(2^{ \tilde{O} \left( \sqrt{n} \right)}\)-time algorithm for S|LWE⟩ with Gaussian amplitude with known phase, given \(2^{ \tilde{O} \left( \sqrt{n} \right)}\) many quantum samples. The algorithm is modified from Kuperberg's sieve, and in fact works for more general amplitudes as long as the amplitudes and phases are completely known.</p>
+    <p>One way of interpreting our result is: to show a sub-exponential time quantum algorithm for standard LWE, all we need is to handle phases in S|LWE⟩ amplitudes better, either in the algorithm or the reduction.</p>}
 }
