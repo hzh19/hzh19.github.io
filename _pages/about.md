@@ -24,7 +24,7 @@ I am a research intern at [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en).
 
 I recently completed my Bachelor's degree in Computer Science at [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/) (known as [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/)), [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 
-My research interests lie in theoretical computer science, especially cryptography, quantum computing and complexity.
+My research interests lie in <b>theoretical computer science</b>, especially cryptography, quantum computing and complexity.
 
 During my undergraduate, I was fortunate to be advised by [Prof. Yilei Chen](http://www.chenyilei.net/).
 
