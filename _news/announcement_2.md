@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-10-11
+date: 2023-06-24
 inline: true
 ---
 
-I am going to be a teaching assistant for Theory of Computation next semester.
+I have completed my Bachelor's degree in Computer Science at [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/), [Tsinghua University](https://www.tsinghua.edu.cn/en/).

@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 permalink: /projects/
-nav: true
+nav: false
 nav_order: 1
 horizontal: true
 display_categories: ["research"]

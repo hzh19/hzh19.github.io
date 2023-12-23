@@ -7,6 +7,6 @@ contents:
     - A review for the paper <a href = "https://www.boazbarak.org/Papers/nonbb.pdf"><i>How to Go Beyond the Black-Box Simulation Barrier</i></a>.
     - Learned how to take advantage of knowing the malicious verifier's code.
     - Gained a better understanding of Zero-Knowledge Proof.
-importance: 1
+importance: 2
 category: course
 ---
