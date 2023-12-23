@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Perfectly-Secure MPC with Amortized Linear Communication Cost
 pdf: /assets/pdf/LinearCostMPC.pdf
 contents: 
     - Course project of <i>Secure Multiparty Computation</i>.
