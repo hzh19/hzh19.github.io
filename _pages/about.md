@@ -20,14 +20,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}" Us
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a research intern at [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en).
-
 I recently completed my Bachelor's degree in Computer Science at [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/) (known as [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/)), [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 
-My research interests lie in <b>theoretical computer science</b>, especially cryptography, quantum computing and complexity.
+My research interests lie in <b>theoretical computer science</b>, especially cryptography.
 
 During my undergraduate, I was fortunate to be advised by [Prof. Yilei Chen](http://www.chenyilei.net/).
 
-During the Spring and Summer of 2022, I had the privilege to work on quantum cryptography under the supervision of [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) and [Prof. Henry Yuen](http://www.henryyuen.net/). 
+During the Spring and Summer of 2022, I had the privilege to work under the supervision of [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) and [Prof. Henry Yuen](http://www.henryyuen.net/). 
 
 Email: [huzihan423@gmail.com](mailto:huzihan423@gmail.com)

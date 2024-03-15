@@ -16,7 +16,3 @@ I love using my camera :camera: to capture moments from my daily life. Click [he
 Click [here](../projects) to see my course projects.
 
 I was the class leader of Yao Class 91 during my sophomore year.
-
-My roommates <a href="https://ziqing-huang.github.io/">Ziqing Huang</a> (NLP), <a href="https://wmdi.github.io/">Mengdi Wu</a> (computer systems and compilers) and <a href="https://tu-yaxin.github.io/">Yaxin Tu</a> (theory) are also outstanding researchers in their areas. They are a great part of my undergraduate experience!
-
-{% include figure.html path="assets/pictures/GroupPhoto.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
