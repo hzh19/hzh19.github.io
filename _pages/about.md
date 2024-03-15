@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}" Us
 social: false  # includes social icons at the bottom of the page
 ---
 
-I recently completed my Bachelor's degree in Computer Science at [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/) (known as [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/)), [Tsinghua University](https://www.tsinghua.edu.cn/en/).
+I recently completed my Bachelor's degree in Computer Science at [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/) (known as [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/)), [Tsinghua University](https://www.tsinghua.edu.cn/en/). I am in my gap year due to visa issues.
 
 My research interests lie in <b>theoretical computer science</b>, especially cryptography.
 
