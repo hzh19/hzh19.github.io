@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Zihan Hu</title>
+    <link rel="icon" href="assets/img/icons.png" type="image/png">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript">var sc_project=12806386,sc_invisible=1,sc_security="3d4306f7";</script> 
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script> 
+    <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12806386/0/3d4306f7/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK76PZW5QD"></script> 
+    <script>
+      function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-VK76PZW5QD");
+    </script>
+  </head>
+<nav class="top-banner">
+  <div class="nav-content">
+      <div class="nav-left">
+      <a href="#top" class="home-link">Zihan Hu</a>
+    </div>
+    <div class="nav-right">
+      <a href="#publication">Publications</a>
+      <a href="#teaching">Teaching</a>
+    </div>
+  </div>
+</nav>
+<body id="#top">
+<div class="profile">
+    <img src="assets/img/zihan-hu.jpg" class="profile-img" alt="image" style="border-radius: 20px;">
+
+    <div class="profile-text">
+        <h1 style="margin: 0 0 10px 0;">Zihan Hu</h1>
+        <p class="contact-line" style="font-size: 14px;margin: 10px 0;">
+            <a href="mailto:zihan.hu@epfl.ch">zihan.hu@epfl.ch</a> ·
+            <a href="https://scholar.google.com/citations?user=VIOJoYYAAAAJ" target="_blank">Google Scholar</a>
+        </p>
+        <p class="bio-text">
+            Hello! I am a second-year Ph.D. student at the <a href = "https://theory.epfl.ch/" taget = "_blank">EPFL theory group</a>, where I am fortunate to be advised by Prof. <a href="https://ic-people.epfl.ch/~achiesa/" target="_blank">Alessandro Chiesa</a>. I received my Bachelor’s degree in Computer Science from <a href = "https://iiis.tsinghua.edu.cn/en/" target="_blank">Yao Class</a> at <a href = "https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>.
+        </p>
+        <p class="bio-text">
+            My research interests lie in theoretical computer science, particularly cryptography and quantum computing.
+        </p>
+    </div>
+</div>
+
+<div class = "wrapper">
+<hr class="section-divider">
+<h2 id="publication">Publications</h2>
+<ul class="pub-list">
+
+  <li class="pub-item">
+  <div class="pub-title">
+    How to Prove Post-Quantum Security for Succinct Non-Interactive Reductions
+  </div>
+  <div class="pub-authors">
+    <a class="pub-co-author-link" href="https://ic-people.epfl.ch/~achiesa/" target="_blank">Alessandro Chiesa</a>, 
+    <a class="pub-co-author-link" href="https://dizidizidi.github.io/" target="_blank">Zijing Di</a>,
+    <strong>Zihan Hu</strong>, 
+    <a class="pub-co-author-link" href="https://scholar.google.com/citations?user=fxooVZMAAAAJ" target="_blank">Yuxi Zheng</a>
+  </div>
+  <div class="pub-venue">
+    In submission
+  </div>
+  <div class="pub-links">
+    [<a href="https://eprint.iacr.org/2025/2166" target="_blank">paper</a>]
+    [<a href="javascript:void(0);" class="toggle-abs">abstract</a>]
+  </div>
+
+  <div class="pub-abstract hidden">
+    <p><strong>Abstract:</strong>Hash-based succinct non-interactive arguments (SNARGs) are widely used in practice, owing to their ease of deployment, notable efficiency, and post-quantum properties. They are constructed via the BCS transformation, which combines an interactive oracle proof (IOP) and a hash-based vector commitment. This success has motivated the study of hash-based succinct non-interactive reductions (SNRDXs), used for recursively ensuring the correctness of distributed computations, by extending the BCS transformation to work with an interactive oracle reduction (IOR) rather than an IOP.</p>
+
+    <p>We prove that hash-based SNRDXs constructed from IORs are secure in the quantum random oracle model (QROM), provided the IOR satisfies a natural post-quantum analogue of state-restoration security; moreover, we show that (classical) round-by-round security implies post-quantum state-restoration security. Our results thus achieve a post-quantum analogue of the classical security of SNRDXs in the ROM, and generalize a prior result about SNARGs in the QROM to cover recent SNRDXs constructions.</p>
+
+    <p>Moreover, for SNRDXs we propose and achieve an adaptively-secure straightline quantum extraction property in the QROM, while prior work obtains non-adaptive security for SNARGs in the QROM. Along the way, we develop a modular framework for proving the security of the (extended) BCS transformation based on a new quantum extraction property for vector commitments (which we prove is achieved by Merkle commitments), mirroring classical security analyses and departing from prior "monolithic" post-quantum analyses. This demands a new commutator bound that shows the almost-commutativity between quantum extraction and quantum oracle queries, by bounding a natural classical extraction property.</p>
+  </div>
+  </li>
+
+  <li class="pub-item">
+  <div class="pub-title">
+    A Meta-Complexity Characterization of Minimal Quantum Cryptography
+  </div>
+  <div class="pub-authors">
+    <a class="pub-co-author-link" href="https://brunopc.github.io/" target="_blank">Bruno Cavalar</a>, 
+    <a class="pub-co-author-link" href="https://chenboyang12.github.io/" target="_blank">Boyang Chen</a>,
+    <a class="pub-co-author-link" href="https://www.andreacoladangelo.com/" target="_blank">Andrea Coladangelo</a>,
+    <a class="pub-co-author-link" href="https://www.graytmatter.com/" target="_blank">Matthew Gray</a>,
+    <strong>Zihan Hu</strong>, 
+    <a class="pub-co-author-link" href="https://scholar.google.com/citations?user=2uXdu7AAAAAJ" target="_blank">Zhengfeng Ji</a>,
+    <a class="pub-co-author-link" href="https://sites.google.com/view/lixingjian/home" target="_blank">Xingjian Li</a>
+  </div>
+  <div class="pub-venue">
+    QIP 2026
+  </div>
+  <div class="pub-links">
+    [<a href="https://arxiv.org/abs/2510.07859" target="_blank">paper</a>]
+    [<a href="javascript:void(0);" class="toggle-abs">abstract</a>]
+  </div>
+
+  <div class="pub-abstract hidden">
+    <p><strong>Abstract:</strong>We give a meta-complexity characterization of EFI pairs, which are considered the "minimal" primitive in quantum cryptography (and are equivalent to quantum commitments). More precisely, we show that the existence of EFI pairs is equivalent to the following: there exists a non-uniformly samplable distribution over pure states such that the problem of estimating a certain Kolmogorov-like complexity measure is hard given a single copy.</p>
+
+    <p>A key technical step in our proof, which may be of independent interest, is to show that the existence of EFI pairs is equivalent to the existence of non-uniform single-copy secure pseudorandom state generators (nu 1-PRS). As a corollary, we get an alternative, arguably simpler, construction of a universal EFI pair.</p>
+  </div>
+  </li>
+
+  <li class="pub-item">
+  <div class="pub-title">
+    LWE with Quantum Amplitudes: Algorithm, Hardness, and Oblivious Sampling
+  </div>
+  <div class="pub-authors">
+    <a class="pub-co-author-link" href="http://www.chenyilei.net/" target="_blank">Yilei Chen</a>, 
+    <strong>Zihan Hu</strong>, 
+    <a class="pub-co-author-link" href="https://sites.google.com/view/qipengliu" target="_blank">Qipeng Liu</a>,
+    <a class="pub-co-author-link" href="https://luohcs01.github.io/" target="_blank">Han Luo</a>,
+    <a class="pub-co-author-link" href="https://tu-yaxin.github.io/" target="_blank">Yaxin Tu</a>
+  </div>
+  <div class="pub-venue">
+    Crypto 2025
+  </div>
+  <div class="pub-links">
+    [<a href="https://eprint.iacr.org/2023/1498" target="_blank">paper</a>]
+    [<a href="javascript:void(0);" class="toggle-abs">abstract</a>]
+  </div>
+
+  <div class="pub-abstract hidden">
+    <p><strong>Abstract:</strong>
+    The learning with errors problem (LWE) is one of the most important building blocks for post-quantum cryptography. To better understand the quantum hardness of LWE, it is crucial to explore quantum variants of LWE. To this end, Chen, Liu, and Zhandry [Eurocrypt 2022] defined S|LWE> and C|LWE> problems by encoding the error of LWE samples into quantum amplitudes, and showed efficient quantum algorithms for a few interesting amplitudes. However, algorithms or hardness results of the most interesting amplitude, Gaussian, were not addressed before.</p>
+
+    <p>In this paper, we show new algorithms, hardness results and applications for S|LWE> and C|LWE> with real Gaussian, Gaussian with linear or quadratic phase terms, and other related amplitudes. Let n be the dimension, q be the modulus of LWE samples. Our main results are</p>
+
+    <p>1. There is a 2^{O(\sqrt{n \log q})}-time algorithm for S|LWE⟩ with Gaussian amplitude with known phase, given 2^{O(\sqrt{n \log q})} many quantum samples. The algorithm is modified from Kuperberg’s sieve, and in fact works for more general amplitudes as long as the amplitudes and phases are completely known.</p>
+
+    <p>2. There is a polynomial time quantum algorithm for solving S|LWE> and C|LWE> for Gaussian with quadratic phase amplitudes, where the sample complexity is as small as \tilde{O}(n). As an application, we give a quantum oblivious LWE sampler where the core quantum sampler requires only quasi-linear sample complexity. This improves upon the previous oblivious LWE sampler given by Debris-Alazard, Fallahpour, Stehlé [STOC 2024], whose core quantum sampler requires \tilde{O}(nr) sample complexity, where r is the standard deviation of the error.</p>
+
+    <p>3. There exist polynomial time quantum reductions from standard LWE or worst-case GapSVP to S|LWE> with Gaussian amplitude with small unknown phase, and arbitrarily many samples. Compared to the first two items, the appearance of the unknown phase term places a barrier in designing efficient quantum algorithm for solving standard LWE via S|LWE>.</p>
+  </div>
+  </li>
+
+  <li class="pub-item">
+  <div class="pub-title">
+    Quantum Key-Revocable Dual-Regev Encryption, Revisited
+  </div>
+  <div class="pub-authors">
+    <a class="pub-co-author-link" href="https://sites.google.com/site/prabhanjanva" target="_blank">Prabhanjan Ananth</a>, 
+    <strong>Zihan Hu</strong>, 
+    <a class="pub-co-author-link" href="https://zikuanhuang.github.io/" target="_blank">Zikuan Huang</a>
+  </div>
+  <div class="pub-venue">
+    TCC 2024
+  </div>
+  <div class="pub-links">
+    [<a href="https://eprint.iacr.org/2024/738" target="_blank">paper</a>]
+    [<a href="assets/pdf/revocable_pke.pdf" target="_blank">slides</a>]
+    [<a href="javascript:void(0);" class="toggle-abs">abstract</a>]
+  </div>
+
+  <div class="pub-abstract hidden">
+    <p><strong>Abstract:</strong>
+    Quantum information can be used to achieve novel cryptographic primitives that are impossible to achieve classically. A recent work by Ananth, Poremba, Vaikuntanathan (TCC 2023) focuses on equipping the dual-Regev encryption scheme, introduced by Gentry, Peikert, Vaikuntanathan (STOC 2008), with key revocation capabilities using quantum information. They further showed that the key-revocable dual-Regev scheme implies the existence of fully homomorphic encryption and pseudorandom functions, with both of them also equipped with key revocation capabilities. Unfortunately, they were only able to prove the security of their schemes based on new conjectures and left open the problem of basing the security of key revocable dual-Regev encryption on well-studied assumptions.</p>
+
+    <p>In this work, we resolve this open problem. Assuming polynomial hardness of learning with errors (over sub-exponential modulus), we show that key-revocable dual-Regev encryption is secure. As a consequence, for the first time, we achieve the following results:</p>
+
+    <p>1. Key-revocable public-key encryption and key-revocable fully-homomorphic encryption satisfying classical revocation security and based on polynomial hardness of learning with errors. Prior works either did not achieve classical revocation or were based on sub-exponential hardness of learning with errors.</p>
+
+    <p>2. Key-revocable pseudorandom functions satisfying classical revocation from the polynomial hardness of learning with errors. Prior works relied upon unproven conjectures.</p>
+  </div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-title">
+      On the (Im)plausibility of Public-Key Quantum Money from Collision-Resistant Hash Functions
+    </div>
+    <div class="pub-authors">
+      <a class="pub-co-author-link" href="https://sites.google.com/site/prabhanjanva" target="_blank">Prabhanjan Ananth</a>, 
+      <strong>Zihan Hu</strong>, 
+      <a class="pub-co-author-link" href="https://www.henryyuen.net/" target="_blank">Henry Yuen</a>
+    </div>
+    <div class="pub-venue">
+      Asiacrypt 2023
+    </div>
+    <div class="pub-links">
+      [<a href="https://eprint.iacr.org/2023/069" target="_blank">paper</a>]
+      [<a href="assets/pdf/pkqm.pdf" target="_blank">slides</a>]
+      [<a href="javascript:void(0);" class="toggle-abs">abstract</a>]
+    </div>
+
+    <div class="pub-abstract hidden">
+    <p><strong>Abstract:</strong>
+      Public-key quantum money is a cryptographic proposal for using highly entangled quantum states as currency that is publicly verifiable yet resistant to counterfeiting due to the laws of physics. Despite significant interest, constructing provably-secure public-key quantum money schemes based on standard cryptographic assumptions has remained an elusive goal. Even proposing plausibly-secure candidate schemes has been a challenge.</p>
+
+    <p>These difficulties call for a deeper and systematic study of the structure of public-key quantum money schemes and the assumptions they can be based on. Motivated by this, we present the first black-box separation of quantum money and cryptographic primitives. Specifically, we show that collision-resistant hash functions cannot be used as a black-box to construct public-key quantum money schemes where the banknote verification makes classical queries to the hash function. Our result involves a novel combination of state synthesis techniques from quantum complexity theory and simulation techniques, including Zhandry’s compressed oracle technique.</p>
+  </div>
+  </li>
+</ul>
+
+<hr class="section-divider">
+
+<h2 id="teaching">Teaching</h2>
+
+<div class="teach-row">
+  <span class="teach-term">Fall 2025</span>
+  <span class="teach-info">Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/introduction-to-quantum-cryptography-COM-440" target="_blank" style="color: inherit;"><em>Introduction to quantum cryptography</em></a> (Instructor: Prof. <a href="https://www.weizmann.ac.il/math/vidick/home" target="_blank" style="color:inherit;">Thomas Vidick</a>), <a href = "https://www.epfl.ch/en/" target="_blank" style="color: inherit;">EPFL</a></span>
+</div>
+
+<div class="teach-row">
+  <span class="teach-term">Spring 2025</span>
+  <span class="teach-info">Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/algorithms-i-CS-250" target="_blank" style="color: inherit;"><em>Algorithms I</em></a> (Instructor: Prof. <a href="https://ic-people.epfl.ch/~achiesa/" target="_blank" style="color:inherit;">Alessandro Chiesa</a> and Prof. <a href="https://theory.epfl.ch/osven/" target="_blank" style="color:inherit;">Ola Svensson</a>), <a href = "https://www.epfl.ch/en/" target="_blank" style="color: inherit;">EPFL</a></span>
+</div>
+
+<div class="teach-row">
+  <span class="teach-term">Spring 2023</span>
+  <span class="teach-info">Teaching assistant for <em>Theory of Computation</em> (Instructor: Prof. <a href="https://iiis.tsinghua.edu.cn/en/People/Faculty/DuanRan.htm" target="_blank" style="color: inherit;">Ran Duan</a>), <a href = "https://www.tsinghua.edu.cn/en/" target="_blank" style="color: inherit;">Tsinghua University</a></span>
+</div>
+
+<hr class="section-divider">
+
+<h2 id="misc">Miscellaneous</h2>
+<p>
+Outside of research, I enjoy crocheting and being outdoors—usually hiking or jogging. I also love cooking and often bring my camera with me to capture small moments from daily life.
+</p>
+
+<hr class="section-divider">
+</div>
+
+<footer class="site-footer">
+  © 2025 Zihan Hu &nbsp; | &nbsp; This homepage was generated with the help of ChatGPT :)
+</footer>
+
+<script src="javascripts/scale.fix.js"></script>
+<script>
+document.querySelectorAll('.toggle-abs').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const abs = btn.parentElement.nextElementSibling;
+    abs.classList.toggle('hidden');
+  });
+});
+</script>
+
+</body>
+</html>
