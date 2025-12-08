@@ -76,10 +76,10 @@ a:hover small {
 
 .profile {
     display: flex;
-    align-items: flex-end;    /* 让文字块靠下对齐图片 */
+    align-items: flex-end;    
     gap: 24px;
     max-width: 900px;
-    margin: 0 auto;          /* 整块居中 */
+    margin: 0 auto;          
     padding: 16px;
     margin-top: 40px;
 }
@@ -103,8 +103,8 @@ a:hover small {
 
 @media (max-width: 768px) {
     .profile {
-        flex-direction: column;   /* 竖排：图片在上，文字在下 */
-        align-items: center;      /* 居中 */
+        flex-direction: column;   
+        align-items: center;      
         text-align: center;
     }
 
@@ -120,12 +120,10 @@ a:hover small {
       font-size: 38px;
     }
 
-    /* 只让 email + scholar 居中 */
     .contact-line {
         text-align: center;
     }
 
-    /* 下面介绍段落仍然两端对齐 */
     .bio-text {
         text-align: justify;
     }
@@ -223,7 +221,7 @@ strong {
     top: 0;
     left: 0;
     width: 100%;
-    backdrop-filter: blur(8px);     /* 现代感：背景模糊 */
+    backdrop-filter: blur(8px);     
     background: rgba(255, 255, 255, 0.85);
     z-index: 1000;
 
@@ -382,7 +380,7 @@ html {
 
 .teach-info {
     white-space: nowrap;
-    color: #666;
+    color: #555555;
     flex-shrink: 0;
 }
 
@@ -390,16 +388,15 @@ html {
 
     .teach-row {
         display: flex;
-        flex-wrap: wrap;      /* ⭐ 允许换行 */
-        gap: 6px 12px;        /* 行距 + 列距 */
+        flex-wrap: wrap;      
+        gap: 6px 12px;        
         margin-bottom: 12px;
     }
 
-    /* 教授信息也自动换行 */
     .teach-info {
-        flex: 1 0 100%;       /* ⭐ 独占一整行 */
-        white-space: normal;  /* 允许自动换行 */
-        color: #666;
+        flex: 1 0 100%;       
+        white-space: normal;  
+        color: #555555;
     }
 
 }
