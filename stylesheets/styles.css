@@ -279,7 +279,14 @@ html {
     }
 
     .nav-right a {
-    margin-left: 12px;
+        margin-left: 0;
+    }
+
+    .nav-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 4px 12px;
     }
 
     h1{
@@ -399,6 +406,32 @@ html {
         color: #555555;
     }
 
+}
+
+.service-list {
+    margin: 0;
+}
+
+.service-row {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 6px 16px;
+    align-items: baseline;
+}
+
+.service-row dt {
+    font-weight: 600;
+    color: #444;
+}
+
+.service-row dd {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .service-row {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }
 
 .site-footer {
