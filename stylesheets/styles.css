@@ -63,6 +63,7 @@ a:hover small {
 
 .wrapper {
   width:900px;
+  max-width:100%;
   margin:0 auto;
 }
 
@@ -370,7 +371,8 @@ html {
     display: none;
 }
 
-.teach-row {
+.teach-row,
+.service-row {
     display: flex;
     gap: 16px;
     margin-bottom: 10px;
@@ -378,7 +380,8 @@ html {
     align-items: baseline;
 }
 
-.teach-term {
+.teach-term,
+.service-row dt {
     width: 120px;
     font-weight: 600;
     color: #444;
@@ -391,46 +394,35 @@ html {
     flex-shrink: 0;
 }
 
-@media (max-width: 930px) {
-
-    .teach-row {
-        display: flex;
-        flex-wrap: wrap;      
-        gap: 6px 12px;        
-        margin-bottom: 12px;
-    }
-
-    .teach-info {
-        flex: 1 0 100%;       
-        white-space: normal;  
-        color: #555555;
-    }
-
-}
-
 .service-list {
     margin: 0;
 }
 
-.service-row {
-    display: grid;
-    grid-template-columns: 120px minmax(0, 1fr);
-    gap: 6px 16px;
-    align-items: baseline;
-}
-
-.service-row dt {
-    font-weight: 600;
-    color: #444;
-}
-
 .service-row dd {
+    flex: 1 1 0;
+    min-width: 0;
     margin: 0;
 }
 
-@media (max-width: 600px) {
+.service-entry {
+    display: inline-block;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 930px) {
+    .teach-row,
     .service-row {
-        grid-template-columns: minmax(0, 1fr);
+        flex-wrap: wrap;
+        gap: 6px 12px;
+        margin-bottom: 12px;
+    }
+
+    .teach-info,
+    .service-row dd {
+        flex: 1 0 100%;
+        white-space: normal;
+        color: #555555;
     }
 }
 
